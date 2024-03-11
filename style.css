@@ -1,0 +1,23 @@
+.Options1 {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    width: 100%;
+    padding: 0px
+  }
+
+  .Options2 {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    height: 110%;
+    width: 100%;
+    padding: 0px
+  }
+
+  img {
+    width: 50px;
+  }
