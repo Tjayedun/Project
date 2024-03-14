@@ -1,9 +1,8 @@
 .Options1 {
     display: flex;
-    position: fixed;
     align-items: center;
     justify-content: center;
-    height: 60%;
+    height: 100%;
     width: 100%;
     padding: 0px
   }
@@ -20,4 +19,8 @@
 
   img {
     width: 50px;
+  }
+
+  .submit {
+ width: 50px;
   }
