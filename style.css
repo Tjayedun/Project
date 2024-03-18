@@ -18,9 +18,13 @@
   }
 
   img {
-    width: 50px;
+    width: 400px;
   }
 
   .submit {
- width: 50px;
+   text-align: center;
+  }
+
+  .dog {
+    text-align: center;
   }

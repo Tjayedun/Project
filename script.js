@@ -8,7 +8,7 @@ let SUV = document.querySelector(".SUV");
 let truck = document.querySelector(".Truck");
 let country = "";
 let car = "";
-let submit = document.querySelector("button");
+let submit = document.querySelector(".submit");
 let dog = document.querySelector(".dog");
 console.log(dog);
 
