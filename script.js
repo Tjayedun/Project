@@ -1,3 +1,8 @@
+let Options1 = document.querySelector(".Options1");
+let Options2 = document.querySelector(".Options2");
+let countries = document.querySelector(".countries");
+let title = document.querySelector(".title");
+let Restart = document.querySelector(".Restart");
 let American = document.querySelector(".American");
 let German = document.querySelector(".German");
 let Japan = document.querySelector(".Japan");
@@ -8,7 +13,7 @@ let SUV = document.querySelector(".SUV");
 let truck = document.querySelector(".Truck");
 let country = "";
 let car = "";
-let submit = document.querySelector(".submit");
+let submit = document.querySelector(".Submit");
 let dog = document.querySelector(".dog");
 console.log(dog);
 
@@ -61,6 +66,9 @@ truck.addEventListener("click", function() {
         console.log(car);
     });;
 
+
+ let C7 = document.querySelector(".C7");
+
 submit.addEventListener("click", function() {
     console.log(country);
     console.log(car);
@@ -69,7 +77,14 @@ submit.addEventListener("click", function() {
     //America
     if (country === "America" && car === "coupe") {
         console.log("AC");
-       dog.innerHTML = "C7 Corvette";
+        Options1.style.display = "none";
+        Options2.style.display = "none";
+        title.style.display = "none";
+        countries.style.display = "none";
+        submit.style.display = "none";
+        Restart.style.display = "block";
+        C7.style.display = "block";
+        dog.innerHTML = "C7 Corvette";
     }
     if (country === "America" && car === "Sedan") {
         console.log("AS");
@@ -139,3 +154,14 @@ submit.addEventListener("click", function() {
     }
     });;
              
+    Restart.addEventListener("click", function() {
+        console.log("restart");
+        Options1.style.display = "grid";
+        Options2.style.display = "grid";
+        title.style.display = "block";
+        countries.style.display = "flex";
+        submit.style.display = "block";
+        C7.style.display = "none";
+        Restart.style.display = "none";
+        dog.innerHTML = "";
+    });;

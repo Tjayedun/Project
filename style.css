@@ -1,3 +1,26 @@
+
+
+/* .league-gothic-<uniquifier> {
+  font-family: "League Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+.button {
+  background-color: #D5D6CA; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 .Options1 {
   float:left;
   width: fit-content;
@@ -6,8 +29,11 @@
   grid-auto-rows: 250px;
   column-gap: 10px;
   row-gap: 1em;
- 
-   
+
+  border: 3px solid black;
+  padding:1%;
+  border-radius: 50px;
+  
   }
 
   .Options2 {
@@ -19,33 +45,69 @@
   column-gap: 10px;
   row-gap: 1em;
 
-    
+  border: 3px solid black;
+  padding: 1%;
+  border-radius: 50px; 
   }
 
   img {
     width: 400px;
     height: 225px;
   }
+  
+  body {
+    background-color:#D5D6CA;
+  
+  
+  }
 
 
 
   .countries {
+    font-family: "League Gothic", sans-serif;
+    font-size: 30px;
     justify-content: center;
     display: flex;
     flex-direction: row;
-    gap: 50%;
+    gap: 38%;
   }
 
   .title {
+    font-family: "League Gothic", sans-serif;
     text-align: center;
+    font-size: 30px;
   }
   
-  .submit {
-    text-align: center;
- 
+  .Submit {
+    position: absolute;
+    bottom: 20px;
+    right: 47.2%;
+    font-size: 30px;
   }
 
+
+
   .dog {
+  font-family: "League Gothic", sans-serif;
   text-align: center;
+  font-size: 40px;
     
   }
+
+  .Restart {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    right: 47.7%;
+    font-size: 30px;
+  }
+
+  .C7 {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 38%;
+    height: 38%;
+  }
+  
