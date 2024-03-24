@@ -84,11 +84,11 @@ submit.addEventListener("click", function() {
         submit.style.display = "none";
         Restart.style.display = "block";
         C7.style.display = "block";
-        dog.innerHTML = "C7 Corvette";
+        dog.innerHTML = "CHEVROLET CORVETTE C7 ZR1";
     }
     if (country === "America" && car === "Sedan") {
         console.log("AS");
-       dog.innerHTML = "ctv Blackwing";
+       dog.innerHTML = "CTV Blackwing";
     }
     if (country === "America" && car === "SUV") {
         console.log("ASUV");
