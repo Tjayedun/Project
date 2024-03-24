@@ -1,3 +1,6 @@
+
+@media screen and (min-width: 600px) {
+
 .Options1 {
   float:left;
   width: fit-content;
@@ -5,11 +8,11 @@
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 250px;
   column-gap: 10px;
-  row-gap: 1em;
+  row-gap: 1px;
   border: 3px solid black;
   padding:1%;
   border-radius: 50px;
-  
+  background-color: lightgray;
   }
 
   .Options2 {
@@ -19,11 +22,172 @@
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 250px;
   column-gap: 10px;
-  row-gap: 1em;
+  row-gap: 1px;
   border: 3px solid black;
   padding: 1%;
   border-radius: 50px; 
+  background-color: lightgray;
   }
+
+      /* //buttons */
+
+  .American {
+    all:unset;
+    
+  }
+  .American:hover {
+    all:unset;
+    width: 397px;
+    height: 222px;
+  }
+  .American:focus {
+    all:unset;
+    opacity: 70%;
+    width: 397px;
+    height: 222px;
+  }
+
+  .German {
+    all:unset;
+    
+  }
+  .German:hover {
+    all:unset;
+    width: 397px;
+    height: 222px;
+  }
+  .German:focus {
+    all:unset;
+    opacity: 70%;
+    width: 397px;
+    height: 222px;
+  }
+
+  .Japan {
+    all:unset;
+    
+  }
+  .Japan:hover {
+    all:unset;
+    width: 397px;
+    height: 222px;
+  }
+  .Japan:focus {
+    all:unset;
+    opacity: 70%;
+    width: 397px;
+    height: 222px;
+  }
+
+  .Italy {
+    all:unset;
+    
+  }
+  .Italy:hover {
+    all:unset;
+    width: 397px;
+    height: 222px;
+  }
+  .Italy:focus {
+    all:unset;
+    opacity: 70%;
+    width: 397px;
+    height: 222px;
+  }
+
+  .Coupe {
+    all:unset;
+    
+  }
+  .Coupe:hover {
+    all:unset;
+    width: 397px;
+    height: 222px;
+  }
+  .Coupe:focus {
+    all:unset;
+    opacity: 70%;
+    width: 397px;
+    height: 222px;
+  }
+
+  .Sedan {
+    all:unset;
+    
+  }
+  .Sedan:hover {
+    all:unset;
+    width: 397px;
+    height: 222px;
+  }
+  .Sedan:focus {
+    all:unset;
+    opacity: 70%;
+    width: 397px;
+    height: 222px;
+  }
+
+  .SUV {
+    all:unset;
+    
+  }
+  .SUV:hover {
+    all:unset;
+    width: 397px;
+    height: 222px;
+  }
+  .SUV:focus {
+    all:unset;
+    opacity: 70%;
+    width: 397px;
+    height: 222px;
+  }
+
+  .Truck {
+    all:unset;
+    
+  }
+  .Truck:hover {
+    all:unset;
+    width: 397px;
+    height: 222px;
+  }
+  .Truck:focus {
+    all:unset;
+    opacity: 70%;
+    width: 397px;
+    height: 222px;
+  }
+
+.Submit {
+    all:unset;
+    font-family: "League Gothic", sans-serif;
+    position: absolute;
+    bottom: 20px;
+    right: 47%;
+    border: 3px solid black;
+    padding: 1%;
+    border-radius: 50px; 
+    background-color: lightgray;
+    font-size: 40px;
+  }
+
+.Restart {
+  all:unset;
+  display: none;
+  font-family: "League Gothic", sans-serif;
+  position: absolute;
+  bottom: 20px;
+  right: 47%;
+  border: 3px solid black;
+  padding: 1%;
+  border-radius: 50px; 
+  background-color: lightgray;
+  font-size: 40px;
+  }
+
+
+/* end of buttons */
 
   img {
     width: 400px;
@@ -36,31 +200,30 @@
   
   }
 
-
+  
+      /* text */
 
   .countries {
     font-family: "League Gothic", sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     justify-content: center;
     display: flex;
     flex-direction: row;
-    gap: 38%;
+    gap: 43%;
+    
   }
 
   .title {
     font-family: "League Gothic", sans-serif;
     text-align: center;
     font-size: 30px;
+    border: 3px solid black;
+   padding-top: 1px;
+   padding-bottom: 1px;
+    border-radius: 50px; 
+    background-color: lightgray;
   }
   
-  .Submit {
-    position: absolute;
-    bottom: 20px;
-    right: 47.2%;
-    font-size: 30px;
-  }
-
-
 
   .dog {
   font-family: "League Gothic", sans-serif;
@@ -69,14 +232,8 @@
     
   }
 
-  .Restart {
-    display: none;
-    position: absolute;
-    bottom: 20px;
-    right: 47.7%;
-    font-size: 30px;
-  }
-
+      /* Answers imgs*/
+   
   .C7 {
     display: none;
     justify-content: center;
@@ -85,4 +242,253 @@
     width: 38%;
     height: 38%;
   }
+}
+
+
+    /* Phone.................................................................................................................................................................. */
+    @media screen and (max-width: 600px) {
+
+    .Options1 {
+  float:top;
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 145px;
+  column-gap: 10px;
+  row-gap: 1px; 
+  border: 3px solid black;
+  padding:4%;
+  border-radius: 50px;
+  background-color: lightgray;
+  }
+
+  .Options2 {
+  float:bottom;
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 145px;
+  column-gap: 10px;
+  row-gap: 1px;
+  border: 3px solid black;
+  padding: 4%;
+  border-radius: 50px; 
+  background-color: lightgray;
+  }
+
+img {
+    width: 175px;
+    height: 120px;
+  }
   
+      /* //buttons */
+
+  .American {
+    all:unset;
+    
+  }
+  .American:hover {
+    all:unset;
+    width: 175px;
+    height: 140px;
+  }
+  .American:focus {
+    all:unset;
+    opacity: 70%;
+    width: 175px;
+    height: 140px;
+  }
+
+  .German {
+    all:unset;
+    
+  }
+  .German:hover {
+    all:unset;
+    width: 175px;
+    height: 140px;
+  }
+  .German:focus {
+    all:unset;
+    opacity: 70%;
+    width: 175px;
+    height: 140px;
+  }
+
+  .Japan {
+    all:unset;
+    
+  }
+  .Japan:hover {
+    all:unset;
+    width: 175px;
+    height: 140px;
+  }
+  .Japan:focus {
+    all:unset;
+    opacity: 70%;
+    width: 175px;
+    height: 140px;
+  }
+
+  .Italy {
+    all:unset;
+    
+  }
+  .Italy:hover {
+    all:unset;
+    width: 175px;
+    height: 140px;
+  }
+  .Italy:focus {
+    all:unset;
+    opacity: 70%;
+    width: 175px;
+    height: 140px;
+  }
+
+  .Coupe {
+    all:unset;
+    
+  }
+  .Coupe:hover {
+    all:unset;
+    width: 175px;
+    height: 140px;
+  }
+  .Coupe:focus {
+    all:unset;
+    opacity: 70%;
+    width: 175px;
+    height: 140px;
+  }
+
+  .Sedan {
+    all:unset;
+    
+  }
+  .Sedan:hover {
+    all:unset;
+    width: 175px;
+    height: 140px;
+  }
+  .Sedan:focus {
+    all:unset;
+    opacity: 70%;
+    width: 175px;
+    height: 140px;
+  }
+
+  .SUV {
+    all:unset;
+    
+  }
+  .SUV:hover {
+    all:unset;
+    width: 175px;
+    height: 140px;
+  }
+  .SUV:focus {
+    all:unset;
+    opacity: 70%;
+    width: 175px;
+    height: 140px;
+  }
+
+  .Truck {
+    all:unset;
+    
+  }
+  .Truck:hover {
+    all:unset;
+    width: 175px;
+    height: 140px;
+  }
+  .Truck:focus {
+    all:unset;
+    opacity: 70%;
+    width: 175px;
+    height: 140px;
+  }
+
+.Submit {
+    all:unset;
+    font-family: "League Gothic", sans-serif;
+    position: absolute;
+    bottom:-12%;
+    right: 40%;
+    border: 3px solid black;
+    padding: 1%;
+    border-radius: 50px; 
+    background-color: lightgray;
+    font-size: 40px;
+  }
+
+.Restart {
+  all:unset;
+  display: none;
+  font-family: "League Gothic", sans-serif;
+  position: absolute;
+  bottom:20%;
+  right: 38%;
+  border: 3px solid black;
+  padding: 1%;
+  border-radius: 50px; 
+  background-color: lightgray;
+  font-size: 40px;
+  }
+
+
+/* end of buttons */
+
+  
+  body {
+    background-color:#D5D6CA;
+  
+  
+  }
+
+  
+      /* text */
+
+  .countries {
+    font-family: "League Gothic", sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    
+  }
+
+  .title {
+    font-family: "League Gothic", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid black;
+   padding-top: 1px;
+   padding-bottom: 1px;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  
+
+  .dog {
+  font-family: "League Gothic", sans-serif;
+  text-align: center;
+  font-size: 40px;
+    
+  }
+
+      /* Answers imgs*/
+   
+  .C7 {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 38%;
+    height: 38%;
+  }
+
+}

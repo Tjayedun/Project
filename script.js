@@ -88,6 +88,13 @@ submit.addEventListener("click", function() {
     }
     if (country === "America" && car === "Sedan") {
         console.log("AS");
+        Options1.style.display = "none";
+        Options2.style.display = "none";
+        title.style.display = "none";
+        countries.style.display = "none";
+        submit.style.display = "none";
+        Restart.style.display = "block";
+        C7.style.display = "block";
        dog.innerHTML = "CTV Blackwing";
     }
     if (country === "America" && car === "SUV") {
