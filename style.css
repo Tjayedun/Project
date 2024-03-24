@@ -277,7 +277,7 @@
   }
 
 img {
-    width: 175px;
+    width: 164px;
     height: 120px;
   }
   
@@ -289,13 +289,13 @@ img {
   }
   .American:hover {
     all:unset;
-    width: 175px;
+    width: 164px;
     height: 140px;
   }
   .American:focus {
     all:unset;
     opacity: 70%;
-    width: 175px;
+    width: 164px;
     height: 140px;
   }
 
@@ -305,13 +305,13 @@ img {
   }
   .German:hover {
     all:unset;
-    width: 175px;
+    width: 164px;
     height: 140px;
   }
   .German:focus {
     all:unset;
     opacity: 70%;
-    width: 175px;
+    width: 164px;
     height: 140px;
   }
 
@@ -321,13 +321,13 @@ img {
   }
   .Japan:hover {
     all:unset;
-    width: 175px;
+    width: 164px;
     height: 140px;
   }
   .Japan:focus {
     all:unset;
     opacity: 70%;
-    width: 175px;
+    width: 164px;
     height: 140px;
   }
 
@@ -337,13 +337,13 @@ img {
   }
   .Italy:hover {
     all:unset;
-    width: 175px;
+    width: 164px;
     height: 140px;
   }
   .Italy:focus {
     all:unset;
     opacity: 70%;
-    width: 175px;
+    width: 164px;
     height: 140px;
   }
 
@@ -353,13 +353,13 @@ img {
   }
   .Coupe:hover {
     all:unset;
-    width: 175px;
+    width: 164px;
     height: 140px;
   }
   .Coupe:focus {
     all:unset;
     opacity: 70%;
-    width: 175px;
+    width: 164px;
     height: 140px;
   }
 
@@ -369,13 +369,13 @@ img {
   }
   .Sedan:hover {
     all:unset;
-    width: 175px;
+    width: 164px;
     height: 140px;
   }
   .Sedan:focus {
     all:unset;
     opacity: 70%;
-    width: 175px;
+    width: 164px;
     height: 140px;
   }
 
@@ -385,13 +385,13 @@ img {
   }
   .SUV:hover {
     all:unset;
-    width: 175px;
+    width: 164px;
     height: 140px;
   }
   .SUV:focus {
     all:unset;
     opacity: 70%;
-    width: 175px;
+    width: 164px;
     height: 140px;
   }
 
@@ -401,13 +401,13 @@ img {
   }
   .Truck:hover {
     all:unset;
-    width: 175px;
+    width: 164px;
     height: 140px;
   }
   .Truck:focus {
     all:unset;
     opacity: 70%;
-    width: 175px;
+    width: 164px;;
     height: 140px;
   }
 
@@ -415,7 +415,7 @@ img {
     all:unset;
     font-family: "League Gothic", sans-serif;
     position: absolute;
-    bottom:-12%;
+    bottom:-30%;
     right: 40%;
     border: 3px solid black;
     padding: 1%;
