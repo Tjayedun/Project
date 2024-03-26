@@ -242,6 +242,52 @@
     width: 38%;
     height: 38%;
   }
+  .C7 {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .CTV {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .Jeep {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .F150 {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  
+  
 }
 
 
@@ -428,7 +474,7 @@ img {
   display: none;
   font-family: "League Gothic", sans-serif;
   position: absolute;
-  right: 38.5%;
+  right: 35%;
   border: 3px solid black;
   padding: 1%;
   border-radius: 50px; 
@@ -480,13 +526,49 @@ img {
 
       /* Answers imgs*/
    
-  .C7 {
+   .C7 {
     display: none;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    width: 38%;
-    height: 38%;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .CTV {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .Jeep {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .F150 {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
   }
 
 }

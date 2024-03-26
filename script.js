@@ -68,6 +68,9 @@ truck.addEventListener("click", function() {
 
 
  let C7 = document.querySelector(".C7");
+ let CTV = document.querySelector(".CTV");
+ let Jeep = document.querySelector(".Jeep");
+ let F150 = document.querySelector(".F150");
 
 submit.addEventListener("click", function() {
     console.log(country);
@@ -84,7 +87,7 @@ submit.addEventListener("click", function() {
         submit.style.display = "none";
         Restart.style.display = "block";
         C7.style.display = "block";
-        dog.innerHTML = "CHEVROLET CORVETTE C7 ZR1";
+        dog.innerHTML = "Corvette C7 ZR1";
     }
     if (country === "America" && car === "Sedan") {
         console.log("AS");
@@ -94,16 +97,30 @@ submit.addEventListener("click", function() {
         countries.style.display = "none";
         submit.style.display = "none";
         Restart.style.display = "block";
-        C7.style.display = "block";
-       dog.innerHTML = "CTV Blackwing";
+        CTV.style.display = "block";
+       dog.innerHTML = "CT5-V Blackwing";
     }
     if (country === "America" && car === "SUV") {
         console.log("ASUV");
-       dog.innerHTML = "Jeep trackhawk";
+        Options1.style.display = "none";
+        Options2.style.display = "none";
+        title.style.display = "none";
+        countries.style.display = "none";
+        submit.style.display = "none";
+        Restart.style.display = "block";
+        Jeep.style.display = "block";
+       dog.innerHTML = "Jeep Grand Cherokee Trackhawk";
     }
     if (country === "America" && car === "Truck") { 
         console.log("AT");
-       dog.innerHTML = "Ford F150";
+        Options1.style.display = "none";
+        Options2.style.display = "none";
+        title.style.display = "none";
+        countries.style.display = "none";
+        submit.style.display = "none";
+        Restart.style.display = "block";
+        F150.style.display = "block";
+       dog.innerHTML = "Ford F150 Raptor";
     }
 
     //German
@@ -169,6 +186,9 @@ submit.addEventListener("click", function() {
         countries.style.display = "flex";
         submit.style.display = "block";
         C7.style.display = "none";
+        CTV.style.display = "none";
+        Jeep.style.display = "none";
+        F150.style.display = "none";
         Restart.style.display = "none";
         dog.innerHTML = "";
     });;
