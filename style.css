@@ -415,8 +415,7 @@ img {
     all:unset;
     font-family: "League Gothic", sans-serif;
     position: absolute;
-    bottom:-30%;
-    right: 40%;
+    right: 38.5%;
     border: 3px solid black;
     padding: 1%;
     border-radius: 50px; 
@@ -429,8 +428,7 @@ img {
   display: none;
   font-family: "League Gothic", sans-serif;
   position: absolute;
-  bottom:20%;
-  right: 38%;
+  right: 38.5%;
   border: 3px solid black;
   padding: 1%;
   border-radius: 50px; 
@@ -453,11 +451,11 @@ img {
 
   .countries {
     font-family: "League Gothic", sans-serif;
-    font-size: 15px;
+    font-size: 14.1px;
     justify-content: center;
     display: flex;
     flex-direction: row;
-    gap: 1%;
+    gap: 18px;
     
   }
 
