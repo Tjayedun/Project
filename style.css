@@ -367,7 +367,51 @@
     border-radius: 50px; 
     background-color: lightgray;
   }
-  
+  .F812 {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .Alfa {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .Urus {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .Fiat {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+
 }
 
 
@@ -738,4 +782,49 @@ img {
     border-radius: 50px; 
     background-color: lightgray;
   }
+  .F812 {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .Alfa {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .Urus {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .Fiat {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  
 }

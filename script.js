@@ -79,6 +79,10 @@ truck.addEventListener("click", function() {
  let WRX = document.querySelector(".WRX");
  let Suby = document.querySelector(".Suby");
  let Honda = document.querySelector(".Honda");
+ let F812 = document.querySelector(".F812");
+ let Alfa = document.querySelector(".Alfa");
+ let Urus = document.querySelector(".Urus");
+ let Fiat = document.querySelector(".Fiat");
 
 submit.addEventListener("click", function() {
     console.log(country);
@@ -226,18 +230,46 @@ submit.addEventListener("click", function() {
     //Italy
     if (country === "Italy" && car === "coupe") {
         console.log("IC");
-       dog.innerHTML = "Ferrari F40";
+        Options1.style.display = "none";
+        Options2.style.display = "none";
+        title.style.display = "none";
+        countries.style.display = "none";
+        submit.style.display = "none";
+        Restart.style.display = "block";
+        F812.style.display = "block";
+       dog.innerHTML = "Ferrari 812 GTS";
     }
     if (country === "Italy" && car === "Sedan") {
         console.log("IS");
-       dog.innerHTML = "Ghibli Trofeo";
+        Options1.style.display = "none";
+        Options2.style.display = "none";
+        title.style.display = "none";
+        countries.style.display = "none";
+        submit.style.display = "none";
+        Restart.style.display = "block";
+        Alfa.style.display = "block";
+       dog.innerHTML = "Alfa Romeo Giulia Quadrifoglio";
     }
     if (country === "Italy" && car === "SUV") {
         console.log("ISUV");
+        Options1.style.display = "none";
+        Options2.style.display = "none";
+        title.style.display = "none";
+        countries.style.display = "none";
+        submit.style.display = "none";
+        Restart.style.display = "block";
+        Urus.style.display = "block";
        dog.innerHTML = "Lamborghini Urus";
     }
     if (country === "Italy" && car === "Truck") {
         console.log("IT");
+        Options1.style.display = "none";
+        Options2.style.display = "none";
+        title.style.display = "none";
+        countries.style.display = "none";
+        submit.style.display = "none";
+        Restart.style.display = "block";
+        Fiat.style.display = "block";
        dog.innerHTML = "Fiat Strada";
     }
     });;
@@ -261,8 +293,10 @@ submit.addEventListener("click", function() {
         WRX.style.display = "none";
         Suby.style.display = "none";
         Honda.style.display = "none";
-
-
+        F812.style.display = "none";
+        Alfa.style.display = "none";
+        Urus.style.display = "none";
+        Fiat.style.display = "none";
         Restart.style.display = "none";
         dog.innerHTML = "";
     });;
