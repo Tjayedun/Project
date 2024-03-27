@@ -71,6 +71,14 @@ truck.addEventListener("click", function() {
  let CTV = document.querySelector(".CTV");
  let Jeep = document.querySelector(".Jeep");
  let F150 = document.querySelector(".F150");
+ let P911 = document.querySelector(".P911");
+ let M5 = document.querySelector(".M5");
+ let X6 = document.querySelector(".X6");
+ let X = document.querySelector(".X");
+ let GTR = document.querySelector(".GTR");
+ let WRX = document.querySelector(".WRX");
+ let Suby = document.querySelector(".Suby");
+ let Honda = document.querySelector(".Honda");
 
 submit.addEventListener("click", function() {
     console.log(country);
@@ -126,37 +134,93 @@ submit.addEventListener("click", function() {
     //German
     if (country === "German" && car === "coupe") {
         console.log("GC");
-       dog.innerHTML = "Porsche 911";
+        Options1.style.display = "none";
+        Options2.style.display = "none";
+        title.style.display = "none";
+        countries.style.display = "none";
+        submit.style.display = "none";
+        Restart.style.display = "block";
+        P911.style.display = "block";
+       dog.innerHTML = "Porsche 911 GT3 RS";
     }
     if (country === "German" && car === "Sedan") {
         console.log("GS");
+        Options1.style.display = "none";
+        Options2.style.display = "none";
+        title.style.display = "none";
+        countries.style.display = "none";
+        submit.style.display = "none";
+        Restart.style.display = "block";
+        M5.style.display = "block";
        dog.innerHTML = "BMW M5 CS";
     }
     if (country === "German" && car === "SUV") {
         console.log("GSUV");
-       dog.innerHTML = "BMW X4M comp";
+        Options1.style.display = "none";
+        Options2.style.display = "none";
+        title.style.display = "none";
+        countries.style.display = "none";
+        submit.style.display = "none";
+        Restart.style.display = "block";
+        X6.style.display = "block";
+       dog.innerHTML = "BMW X6 M Competition";
     }
     if (country === "German" && car === "Truck") {
         console.log("GT");
+        Options1.style.display = "none";
+        Options2.style.display = "none";
+        title.style.display = "none";
+        countries.style.display = "none";
+        submit.style.display = "none";
+        Restart.style.display = "block";
+        X.style.display = "block";
        dog.innerHTML = "X Class Mercedes";
     }
 
     //Japanese
     if (country === "Japan" && car === "coupe") {
         console.log("JC");
-       dog.innerHTML = "Acura NSX";
+        Options1.style.display = "none";
+        Options2.style.display = "none";
+        title.style.display = "none";
+        countries.style.display = "none";
+        submit.style.display = "none";
+        Restart.style.display = "block";
+        GTR.style.display = "block";
+       dog.innerHTML = "Nissan GT-R";
     }
     if (country === "Japan" && car === "Sedan") {
         console.log("JS");
-       dog.innerHTML = "Evo X";
+        Options1.style.display = "none";
+        Options2.style.display = "none";
+        title.style.display = "none";
+        countries.style.display = "none";
+        submit.style.display = "none";
+        Restart.style.display = "block";
+        WRX.style.display = "block";
+       dog.innerHTML = "Subaru WRX STI";
     }
     if (country === "Japan" && car === "SUV") {
         console.log("JSUV");
+        Options1.style.display = "none";
+        Options2.style.display = "none";
+        title.style.display = "none";
+        countries.style.display = "none";
+        submit.style.display = "none";
+        Restart.style.display = "block";
+        Suby.style.display = "block";
        dog.innerHTML = "Subaru forester";
     }
     if (country === "Japan" && car === "Truck") {
         console.log("JT");
-       dog.innerHTML = "Kei Truck";
+        Options1.style.display = "none";
+        Options2.style.display = "none";
+        title.style.display = "none";
+        countries.style.display = "none";
+        submit.style.display = "none";
+        Restart.style.display = "block";
+        Honda.style.display = "block";
+       dog.innerHTML = "Honda Acty";
     }
 
     //Italy
@@ -189,6 +253,16 @@ submit.addEventListener("click", function() {
         CTV.style.display = "none";
         Jeep.style.display = "none";
         F150.style.display = "none";
+        P911.style.display = "none";
+        M5.style.display = "none";
+        X6.style.display = "none";
+        X.style.display = "none";
+        GTR.style.display = "none";
+        WRX.style.display = "none";
+        Suby.style.display = "none";
+        Honda.style.display = "none";
+
+
         Restart.style.display = "none";
         dog.innerHTML = "";
     });;

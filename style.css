@@ -234,14 +234,7 @@
 
       /* Answers imgs*/
    
-  .C7 {
-    display: none;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 38%;
-    height: 38%;
-  }
+
   .C7 {
     display: none;
     justify-content: center;
@@ -286,7 +279,94 @@
     border-radius: 50px; 
     background-color: lightgray;
   }
-  
+  .P911 {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .M5 {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .X6 {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .X {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .GTR {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .WRX {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .Suby {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .Honda {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
   
 }
 
@@ -570,5 +650,92 @@ img {
     border-radius: 50px; 
     background-color: lightgray;
   }
-
+  .P911 {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .M5 {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .X6 {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .X {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .GTR {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .WRX {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .Suby {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
+  .Honda {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    height: 51%;
+    border: 3px solid black;
+    border-radius: 50px; 
+    background-color: lightgray;
+  }
 }
