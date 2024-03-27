@@ -297,6 +297,7 @@ submit.addEventListener("click", function() {
         Alfa.style.display = "none";
         Urus.style.display = "none";
         Fiat.style.display = "none";
+        
         Restart.style.display = "none";
         dog.innerHTML = "";
     });;
